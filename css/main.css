@@ -1,0 +1,44 @@
+:root {
+  --main-bg-color: #6A5B6E;
+  --main-text-color: white;
+  --main-font-family: courier;
+  --main-alignment: center;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+h1 {
+  text-align: var(--main-alignment);
+  color: var(--main-text-color);
+  font-family: var(--main-font-family);
+  font-size: 50;
+}
+
+h2 {
+  text-align: var(--main-alignment);
+  color: var(--main-text-color);
+  font-family: var(--main-font-family);
+  font-size: 25;
+}
+
+.center {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left:-250px;
+
+}
+
+.social-media-images {
+  position: absolute;
+  width: 500px;
+  height: 100px;
+  top: 55%;
+  left: 50%;
+  margin-left:-225px;
+}
