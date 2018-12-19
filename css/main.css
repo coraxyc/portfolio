@@ -1,44 +1,51 @@
-:root {
-  --main-bg-color: #6A5B6E;
-  --main-text-color: white;
-  --main-font-family: courier;
-  --main-alignment: center;
+html, body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
-body {
-  background-color: var(--main-bg-color);
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
 
-h1 {
-  text-align: var(--main-alignment);
-  color: var(--main-text-color);
-  font-family: var(--main-font-family);
-  font-size: 50;
+p {
+  margin: 0;
 }
 
-h2 {
-  text-align: var(--main-alignment);
-  color: var(--main-text-color);
-  font-family: var(--main-font-family);
-  font-size: 25;
+.intro-background {
+  height: 800px;
+  background: linear-gradient(51.56deg, #38307F 9.61%,
+                              #6EA4BF 66.74%,
+                              rgba(148, 198, 211, 0.899178) 95.63%);
 }
 
-.center {
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro-svg {
+  margin-top: 30px;
+}
+
+.intro-text {
   position: absolute;
-  width: 500px;
-  height: 50px;
-  top: 50%;
-  left: 50%;
-  margin-top: -100px;
-  margin-left:-250px;
-
+  top: 35%;
 }
 
-.social-media-images {
-  position: absolute;
-  width: 500px;
-  height: 100px;
-  top: 55%;
-  left: 50%;
-  margin-left:-225px;
+.intro p {
+  font-size: 50px;
+}
+
+.intro h1 {
+  font-size: 75px;
+}
+
+#tagline {
+  margin-top: 50px;
+  font-size: 30px;
+  text-decoration:none;
+  border-bottom: 5px;
 }
