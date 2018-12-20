@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
-  background-color: #000;
-  color: #fff;
+  background-color: white;
+  color: black;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -9,8 +9,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+h2 {
+  font-size: 50px;
+}
+
 p {
-  margin: 0;
+  font-size: 30px;
 }
 
 .intro-background {
@@ -27,25 +31,62 @@ p {
 }
 
 .intro-svg {
-  margin-top: 30px;
+  position: absolute;
+  left: 10%;
+  top: 5%;
 }
 
 .intro-text {
   position: absolute;
+  color: white;
   top: 35%;
 }
 
 .intro p {
+  margin: 0;
   font-size: 50px;
+}
+
+#tagline {
+  margin-top: 50px;
+  font-size: 30px;
+  border-bottom: 5px;
 }
 
 .intro h1 {
   font-size: 75px;
 }
 
-#tagline {
-  margin-top: 50px;
-  font-size: 30px;
-  text-decoration:none;
-  border-bottom: 5px;
+.container {
+  position: relative;
+  background-color: white;
+  height: 400px;
+}
+
+.about-svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5%;
+}
+
+.about-text {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+.divider {
+  width: 64px;
+  height: 4px;
+  background-color: #38307F;
+  margin-bottom: 20px;
+}
+
+.in-progress {
+  margin-top: 30%;
+  background-color: #6EA4BF;
+  height: inherit;
+  color: white;
+  text-align: center;
 }
