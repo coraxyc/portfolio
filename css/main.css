@@ -1,6 +1,9 @@
 html, body {
   width: 100%;
   height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 body {
@@ -30,6 +33,11 @@ p {
   font-size: 25px;
 }
 
+ul {
+  padding-left: 0;
+  margin-left: -45px;
+}
+
 .header {
   color: #fff;
   background: linear-gradient(51.56deg, #38307F 9.61%,
@@ -43,6 +51,7 @@ p {
   width: 100%;
   min-width: 350px;
   min-height: 315px;
+  overflow-x: auto;
 }
 
 .h-100 {
@@ -54,6 +63,8 @@ p {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .w-60 {
@@ -99,16 +110,22 @@ section {
   padding-top: 150px;
 }
 
-.about-text {
+.text {
   padding-left: 10%;
-  padding-right: 39%;
+  padding-right: 40%;
 }
 
 .divider {
   width: 64px;
-  height: 4px;
+  height: 6px;
+}
+
+.purple {
   background-color: #38307F;
-  margin-bottom: 20px;
+}
+
+.light-blue {
+  background-color: #BAE8E7;
 }
 
 .in-progress {
@@ -123,6 +140,38 @@ section {
 .text-center {
   padding: 20%;
 }
+
+.code .button {
+  display: inline-block;
+  padding: 45px;
+}
+
+.card {
+  box-shadow: 0px 23px 38px rgba(0, 0, 0, 0.43);
+  border-radius: 20px;
+}
+
+.card-container {
+  position: relative;
+  padding-left: 10%;
+}
+
+.code {
+  position: relative;
+  background-color: #BAE8E7;
+  color: #000;
+}
+
+.design {
+  background-color: #6EA4BF;
+  color: #FFF;
+}
+
+.photography {
+  background-color: #38307F;
+  color: #FFF;
+}
+
 @media not all and (orientation: landscape), (max-width: 750px),
                    (min-height: 900px) and (max-width: 1240px) {
   #balloon {
@@ -132,7 +181,9 @@ section {
   #balloon-string {
     display: none;
   }
-
+  .h1 {
+    font-size: 55px;
+  }
   .about-text {
     padding-right: 10%;
   }
