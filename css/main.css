@@ -3,6 +3,7 @@ html, body {
   height: 100%;
   margin: 0px;
   padding: 0px;
+  width: fit-content;
 }
 
 body {
@@ -43,11 +44,11 @@ ul {
   background: linear-gradient(51.56deg, #38307F 9.61%,
                               #6EA4BF 66.74%,
                               rgba(148, 198, 211, 0.899178) 95.63%);
+  height: 100vh;
 }
 
 .view {
-  position: relative;
-  height: 100vh;
+
   width: 100%;
   min-width: 350px;
   min-height: 315px;
@@ -182,7 +183,7 @@ section {
   .h1 {
     font-size: 55px;
   }
-  .about-text {
+  .text {
     padding-right: 10%;
   }
 }
