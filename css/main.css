@@ -17,6 +17,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -37,6 +38,12 @@ p {
 ul {
   padding-left: 0;
   margin-left: -45px;
+  list-style-type: none;
+}
+
+section {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .header {
@@ -48,7 +55,6 @@ ul {
 }
 
 .view {
-
   width: 100%;
   min-width: 350px;
   min-height: 315px;
@@ -104,14 +110,16 @@ ul {
   background: white;
 }
 
-section {
-  padding-top: 150px;
-  padding-bottom: 50px;
-}
-
-.text {
+.text-left {
   padding-left: 10%;
   padding-right: 40%;
+  text-align: left;
+}
+
+.text-right {
+  padding-left: 40%;
+  padding-right: 10%;
+  text-align: right;
 }
 
 .divider {
@@ -123,24 +131,27 @@ section {
   background-color: #38307F;
 }
 
+.purple-deep {
+  background-color: #2A214E;
+}
+
 .light-blue {
   background-color: #BAE8E7;
 }
 
 .in-progress {
   position: relative;
-  background-color: #6EA4BF;
+  background-color: #000;
   height: inherit;
   color: white;
   text-align: center;
-
 }
 
 .text-center {
   padding: 20%;
 }
 
-.code .button {
+.button {
   display: inline-block;
   padding: 45px;
 }
@@ -157,8 +168,8 @@ section {
 
 .code {
   position: relative;
-  background-color: #BAE8E7;
-  color: #000;
+  background-color: #2A214E;
+  color: #FFF;
 }
 
 .design {
@@ -167,8 +178,19 @@ section {
 }
 
 .photography {
-  background-color: #38307F;
-  color: #FFF;
+  background-color: #BAE8E7;
+  color: #000;
+}
+
+.footer {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 50px;
+}
+
+.logo {
+  padding: 10px;
+  width: 25px;
 }
 
 @media not all and (orientation: landscape), (max-width: 750px),
@@ -183,7 +205,12 @@ section {
   .h1 {
     font-size: 55px;
   }
-  .text {
+  
+  .text-left {
     padding-right: 10%;
+  }
+
+  .text-right {
+    padding-left: 10%;
   }
 }
