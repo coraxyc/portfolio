@@ -15,6 +15,10 @@ body, html {
   color: black;
 }
 
+.Work-container {
+  min-height: 100vh;
+}
+
 .Header-container {
   background: url(images/wave-top.svg);
   background-position: top;
@@ -25,7 +29,7 @@ body, html {
 }
 
 .Header-intro {
-  padding-top: 8%;
+  padding-top: 5%;
   padding-left: 10%;
 }
 
@@ -38,6 +42,23 @@ body, html {
   font-size: 25px;
 }
 
+.Header-intro-button {
+  margin-top: 20px;
+  border: 3px solid #FFFFFF;
+  background-color: transparent;
+  width: 270px;
+  height: 80px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  cursor: pointer;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Header-intro-arrow {
+  
+}
 
 @keyframes App-logo-spin {
   from {

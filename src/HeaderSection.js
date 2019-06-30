@@ -13,9 +13,13 @@ class HeaderSection extends Component {
                         <p className="Header-intro-body">
                             I have a passion for hackathons, typography, and <br/>
                             sustainable urban planning.</p>
+                        <button className="Header-intro-button">
+                            Explore my work
+                        </button>
+                        <object type="image/svg+xml" className="Header-intro-arrow" data="./images/arrow.svg"/>
                     </div>
-                    <div className="Header-arrow">Arrow</div>
-                    <div className="Header-button">Button</div>
+                    
+                    
                 </div>
             </section>
         )
