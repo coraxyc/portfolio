@@ -3,6 +3,8 @@ body, html {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 .Header {
@@ -19,6 +21,44 @@ body, html {
   min-height: 100vh;
 }
 
+.Work-circle {
+  height: 600px;
+  width: 600px;
+  background-color: #2F80ED;
+  border-radius: 50%;
+  float: right;
+  margin-right: -10%;
+  margin-top: -10%;
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+  color: white;
+}
+
+.Work-circle-body {
+  margin: 30% 25%;
+  padding-right: 15%;
+
+}
+.Work-circle-body-title {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.Work-circle-body-divider {
+  margin-top: -15px;
+  width: 120px;
+  height: 8px;
+  background-color: #56CCF2;
+  margin-bottom: 30px;
+}
+
+.Work-circle-body-text {
+  font-size: 20px;
+}
+
 .Header-container {
   background: url(images/wave-top.svg);
   background-position: top;
@@ -30,7 +70,7 @@ body, html {
 
 .Header-intro {
   padding-top: 5%;
-  padding-left: 10%;
+  padding-left: 15%;
 }
 
 .Header-intro-title {
@@ -56,15 +96,22 @@ body, html {
   font-weight: bold;
 }
 
-.Header-intro-arrow {
-  
+.Header-intro-button:hover {
+  background-color: white;
+  color: #2F80ED;
 }
 
-@keyframes App-logo-spin {
+.Header-intro-arrow {
+  margin-left: 9%;
+  padding-top: 5%;
+  animation: arrow-up-down 0.9s infinite alternate;
+}
+
+@keyframes arrow-up-down {
   from {
-    transform: rotate(0deg);
+    transform: translateY(0);
   }
   to {
-    transform: rotate(360deg);
+    transform: translateY(-20px);
   }
 }
