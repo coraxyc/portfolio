@@ -11,7 +11,7 @@ class WorkSection extends Component {
                                 About
                             </div>
                             <div className="About-circle-body-divider"></div>
-                                <div className="About-circle-body-text">
+                                <div className="circle-body-text">
                                     Lorem ipsum something that's really cool about the work on here.
                                     <br/><br/>
                                     Also something super inspirational.
