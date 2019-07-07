@@ -32,11 +32,6 @@ class WorkSection extends Component {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <img src={aboutWave} className="Work-footer" alt="wave footer"/>
-                        <div className="Work-bottom-circle">
-                        </div>
-                    </div>
                 </div>
             </section>
         )

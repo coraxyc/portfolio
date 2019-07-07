@@ -5,7 +5,7 @@ class WorkSection extends Component {
         return (
             <section className="About" id="about">
                 <div className="About-container">
-                <div className="About-circle">
+                    <div className="About-circle">
                         <div className="About-circle-body">
                             <div className="About-circle-body-title">
                                 About
@@ -16,8 +16,8 @@ class WorkSection extends Component {
                                     <br/><br/>
                                     Also something super inspirational.
                                 </div>
-                            </div>
                         </div>
+                    </div>
 
                 </div>
             </section>

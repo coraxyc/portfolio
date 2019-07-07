@@ -30,6 +30,14 @@ div {
   max-width: 66vh;
 }
 
+.Work-container {
+  background: url(images/about-wave.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 100vh;
+  top: 0;
+}
 .Work-grid-box {
 
 }
@@ -53,8 +61,9 @@ div {
 .Work-circle-body {
   margin: 30% 25%;
   padding-right: 15%;
-
+  height: 100%;
 }
+
 .Work-circle-body-title {
   font-weight: bold;
   font-size: 50px;
@@ -73,20 +82,23 @@ div {
 }
 
 .Work-footer {
-  margin-bottom: -5px;
+  z-index: -3;
+  vertical-align: bottom;
+  display: table-cell;
 }
 
-/*
 .Work-bottom-circle {
+  position: absolute;
+  z-index: 2;
   height: 600px;
   width: 600px;
-  background-color: white;
+  background-color: black;
   border-radius: 50%;
+
   float: left;
-  margin-left: -10%;
-  margin-bottom: -130%;
+
 }
-*/
+
 
 .Header-container {
   background: url(images/wave-top.svg);
@@ -103,22 +115,22 @@ div {
 }
 
 .About-circle {
-  height: 600px;
   width: 600px;
   background-color: white;
   border-radius: 50%;
   float: left;
   margin-left: -10%;
-  margin-top: -10%;
+  margin-top: -7%;
   color: black;
 }
 
 
 .About-circle-body {
+  overflow: visible;
   margin: 30% auto;
   margin-left: 40%;
   margin-right: 10%;
-
+  height: 100%;
 }
 .About-circle-body-title {
   font-weight: bold;
@@ -138,6 +150,8 @@ div {
 }
 
 .Coffee-container {
+  vertical-align: bottom;
+  display: table-cell;
   background: linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);
 }
 
@@ -181,9 +195,7 @@ div {
 }
 
 .footer-images {
-  margin-bottom: -100px;
-  bottom: 0px;
-  float: bottom;
+  /* vertical-align: bottom; */
 }
 
 @keyframes arrow-up-down {
