@@ -124,6 +124,14 @@ div {
   color: black;
 }
 
+.About-body {
+  color: white;
+  margin-left: 40%;
+  margin-right: 10%;
+  padding-top: 10%;
+  font-size: 25px;
+}
+
 .About-circle-body {
   overflow: visible;
   margin: 30% auto;
