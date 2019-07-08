@@ -7,6 +7,10 @@ body, html {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 div {
   margin: 0;
   padding: 0;
@@ -157,9 +161,17 @@ div {
 }
 
 .Coffee-container {
-  vertical-align: bottom;
+/*  vertical-align: bottom;
   display: table-cell;
-  background: linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);
+*/
+  background: url(images/footer-images.svg);
+  background: linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);;
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 100vh;
+  bottom: 0;
 }
 
 .Coffee-circle {
@@ -186,6 +198,10 @@ div {
 
 .Coffee-button {
   margin-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  vertical-align: center;
   border: none;
   background: linear-gradient(45deg, #2F80ED 0%, #56CCF2 100%);
   width: 270px;
@@ -246,6 +262,21 @@ div {
 
 .footer-images {
   /* vertical-align: bottom; */
+  z-index: -1;
+}
+.Coffee-arrow {
+  animation: arrow-left-right 0.9s infinite alternate;
+  padding-top: 2%;
+  padding-right: 5%;
+}
+
+@keyframes arrow-left-right {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-10px);
+  }
 }
 
 @keyframes arrow-up-down {

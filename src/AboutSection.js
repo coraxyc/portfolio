@@ -19,6 +19,7 @@ class WorkSection extends Component {
                         </div>
                     </div>
                     <div class="About-body">
+
                         Insert some kind of bio that makes a lot of sense because 
                         sometimes other things don’t.
 

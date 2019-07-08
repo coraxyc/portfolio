@@ -12,8 +12,8 @@ class HeaderSection extends Component {
                             I’m a visual problem solver studying Computer Science <br/>
                             and Design at the University of California San Diego. </p>
                         <p className="Header-intro-body">
-                            I enjoy going to hackathons, experimenting with <br/>typography, and 
-                            gazing at skyscrapers.</p>
+                            I enjoy going to hackathons 👩‍💻, gazing at skyscrapers 🏙,<br/>
+                            and experimenting with typography ✍ .</p>
                         <a href="#work">
                             <button className="Header-intro-button">
                                 Explore my work
