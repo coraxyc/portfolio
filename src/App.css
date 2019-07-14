@@ -162,12 +162,11 @@ div, img  {
 
 .Coffee-container {
   background: #6DB3F2;
-  background-image: url(images/sky-components.svg);
-  background-image: url(images/sky-components.svg), linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);
-  background-position: top;
+  background-image: url(images/sky-components.svg), url(images/footer-images.svg);
+  background-image: url(images/sky-components.svg), url(images/footer-images.svg), linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);
+  background-position: center top, center bottom;
   background-repeat: no-repeat;
-  background-size: auto;
-  top: 0;
+  background-size: contain 20%;
   padding-top: 20%;
   
 }
@@ -262,8 +261,10 @@ div, img  {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -1%;
-  margin-bottom: -1%;
+  max-width: 102%;
+  max-height: 100%;
+  margin-left: -0.3%;
+  bottom: 0;
 }
 
 .Coffee-arrow {

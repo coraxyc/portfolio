@@ -20,7 +20,7 @@ class CoffeeSection extends Component {
                             </a>
                         </div>
                     </div>
-                    <img src={footerImages} className="footer-images" alt="footer images"></img>
+                    {/*<img src={footerImages} className="footer-images" alt="footer images"></img>*/}
                 </div>
             </section>
         )
