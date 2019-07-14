@@ -13,7 +13,7 @@ class HeaderSection extends Component {
                             and Design at the University of California San Diego. </p>
                         <p className="Header-intro-body">
                             I enjoy going to hackathons 👩‍💻, gazing at skyscrapers 🏙,<br/>
-                            and experimenting with typography ✍ .</p>
+                            and experimenting with typography ✍.</p>
                         <a href="#work">
                             <button className="Header-intro-button">
                                 Explore my work

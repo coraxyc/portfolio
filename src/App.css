@@ -115,7 +115,7 @@ div, img  {
 
 .About-container {
   background: #2F80ED;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .About-circle {
@@ -161,17 +161,15 @@ div, img  {
 }
 
 .Coffee-container {
-/*  vertical-align: bottom;
-  display: table-cell;
-*/
-  background: url(images/footer-images.svg);
-  background: linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);;
-
+  background: #6DB3F2;
+  background-image: url(images/sky-components.svg);
+  background-image: url(images/sky-components.svg), linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);
   background-position: top;
   background-repeat: no-repeat;
   background-size: auto;
-  min-height: 100vh;
-  bottom: 0;
+  top: 0;
+  padding-top: 20%;
+  
 }
 
 .Coffee-circle {
