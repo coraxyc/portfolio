@@ -11,7 +11,7 @@ a {
   text-decoration: none;
 }
 
-div {
+div, img  {
   margin: 0;
   padding: 0;
 }
@@ -261,13 +261,26 @@ div {
 }
 
 .footer-images {
-  /* vertical-align: bottom; */
-  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -1%;
+  margin-bottom: -1%;
 }
+
 .Coffee-arrow {
   animation: arrow-left-right 0.9s infinite alternate;
   padding-top: 2%;
   padding-right: 5%;
+}
+
+.Footer {
+  background-color: #0056CA; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
 }
 
 @keyframes arrow-left-right {
