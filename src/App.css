@@ -125,6 +125,7 @@ div, img  {
   float: left;
   margin-left: -10%;
   margin-top: -7%;
+  margin-right: 5%;
   color: black;
 }
 
@@ -280,6 +281,43 @@ div, img  {
   justify-content: center;
   align-items: center;
   height: 150px;
+}
+
+.text-hidden {
+  display: none;
+
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    /* display:flex; */
+    /* -webkit-box-pack:center; */
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    /* justify-content:center; */
+    /* -webkit-box-align:center; */
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    /* align-items:center; */
+  }
+
+  .mobile-hidden {
+    display: none!important;
+  }
+
+  .text-hidden {
+    display: flex!important;
+    background: linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);
+    color: white;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+  }
 }
 
 @keyframes arrow-left-right {
