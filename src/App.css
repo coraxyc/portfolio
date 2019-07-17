@@ -38,7 +38,7 @@ div, img  {
   background: url(images/about-wave.svg);
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 100%;
   min-height: 100vh;
   top: 0;
 }
@@ -108,7 +108,7 @@ div, img  {
   background-image: url(images/header-images.svg), url(images/wave-top.svg);
   background-position: center top 5%, top;
   background-repeat: no-repeat;
-  background-size: 80%, auto;
+  background-size: 80%, 100%;
   min-height: 100vh;
   top: 0;
 }
@@ -167,7 +167,7 @@ div, img  {
   background-image: url(images/sky-components.svg), url(images/footer-images.svg), linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);
   background-position: center top, center bottom;
   background-repeat: no-repeat;
-  background-size: contain 20%;
+  background-size: 100%;
   padding-top: 20%;
   
 }
