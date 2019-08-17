@@ -4,7 +4,7 @@ import arrow from './images/arrow.svg'
 class HeaderSection extends Component {
     render() {
         return (
-            <section className="Header" id="home">
+            <section className="Home" id="home">
                 <div className="Header-container">
                     <div className="Header-intro">
                         <h1 className="Header-intro-title">Hi, I'm Cora.</h1>
