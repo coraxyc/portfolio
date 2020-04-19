@@ -12,7 +12,7 @@ class WorkSection extends Component {
                             </div>
                             <div className="About-circle-body-divider"></div>
                                 <div className="circle-body-text">
-                                Other projects I’ve worked on, including software, design, to phototography.
+                                    Other projects I’ve worked on, including software, design, to phototography.
                                     <br/><br/>
                                     Currently a work in progress.
                                 </div>

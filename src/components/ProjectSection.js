@@ -3,7 +3,7 @@ import aboutWave from '../images/about-wave.svg'
 import CardConnectDisplay from '../images/project1_cardconnect.png'
 import AvantGardeDisplay from '../images/project2_avant-garde.png'
 
-class WorkSection extends Component {
+class ProjectSection extends Component {
     render() {
         return (
             <section className="Work" id="work">
@@ -11,7 +11,9 @@ class WorkSection extends Component {
                     <div className="horizontal">
                     <div className="Work-info">
                         <div className="Work-info-container">
-                            <img className="Work-info-image" src={CardConnectDisplay}/>
+                            <a href="./projects/cardconnect">
+                                <img className="Work-info-image" src={CardConnectDisplay}/>
+                            </a>
                             <div className="Work-info-text">
                                 <p className="project-title">
                                     CardConnect
@@ -25,7 +27,9 @@ class WorkSection extends Component {
                             </div>
                         </div>
                         <div className="Work-info-container">
-                            <img className="Work-info-image" src={AvantGardeDisplay}/>
+                            <a href="./projects/avantgarde">
+                                <img className="Work-info-image" src={AvantGardeDisplay}/>
+                            </a>
                             <div className="Work-info-text">
                                 <p className="project-title">
                                     Avant Garde Poster Design
@@ -63,4 +67,4 @@ class WorkSection extends Component {
     }
 }
 
-export default WorkSection
+export default ProjectSection
