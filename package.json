@@ -2,7 +2,7 @@
   "name": "coraxyc.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://coraxyc.github.io/",
+  "homepage": "https://coraxyc.github.io/",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
