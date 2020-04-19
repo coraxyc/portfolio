@@ -5,7 +5,7 @@ import rightArrow from './images/right-arrow.svg'
 class CoffeeSection extends Component {
     render() {
         return (
-            <section className="Coffee">
+            <section className="Coffee" id="coffee">
                 <div className="Coffee-container container">
                     <div className="Coffee-circle">
                         <div className="Coffee-circle-body">

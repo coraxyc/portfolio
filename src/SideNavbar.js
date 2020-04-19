@@ -4,6 +4,7 @@ import githubIcon from './images/github-icon.svg';
 import linkedinIcon from './images/linkedin-icon.svg';
 import logo from './images/coraxyc-logo.svg';
 import twitterIcon from './images/twitter-icon.svg';
+import resume from './images/resume_coraxyc_2020.pdf';
 
 
 class SideNavbar extends Component {
@@ -16,6 +17,15 @@ class SideNavbar extends Component {
                     </a>
                 </div>
                 <div className="bottom-icons">
+                    <div className="icon white">
+                        <a href={resume} target="_blank">
+                            Resume
+                        </a>
+  
+                        <a href="#coffee">
+                            Contact
+                        </a>
+                    </div>
                     <div className="icon">
                         <a href="https://github.com/coraxyc" target="_blank">
                             <img src={githubIcon} alt="github-icon" id="github-icon"/>

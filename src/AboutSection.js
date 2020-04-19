@@ -8,30 +8,18 @@ class WorkSection extends Component {
                     <div className="About-circle">
                         <div className="About-circle-body">
                             <div className="About-circle-body-title">
-                                About
+                                Other work
                             </div>
                             <div className="About-circle-body-divider"></div>
                                 <div className="circle-body-text">
-                                    Lorem ipsum something that's really cool about the work on here.
+                                Other projects I’ve worked on, including software, design, to phototography.
                                     <br/><br/>
-                                    Also something super inspirational.
+                                    Currently a work in progress.
                                 </div>
                         </div>
                     </div>
-                    <div class="About-body">
-
-                        Insert some kind of bio that makes a lot of sense because 
-                        sometimes other things don’t.
-
-                        For example, how the hell I’m going to make this website
-                        isn’t making sense right now, but I hope I’m going to figure
-                        this out.
-
-                        Inserter des types de bio qui faitent beaucoup du sense
-                        que parfois les autres choses ne faitent pas de sense. Par
-                        exemple, comment l’hell je vais créer cette site ne pas faire
-                        de sense maintenant, mais œ∑´®†¥¨ˆøπåß∂ƒ©˙∆˚¬Ω≈ç√∫˜µ
-                        πøˆºª•∞¶∞¢£™¡™£¢∞∞§
+                    <div className="About-body">
+                        work in progress! a few links will appear here eventually
                     </div>
                 </div>
             </section>

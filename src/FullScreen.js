@@ -8,7 +8,7 @@ import SideNavBar from './SideNavbar.js';
 
 function FullScreen() {
     return (
-        <div class="mobile-hidden big-layout">
+        <div className="mobile-hidden big-layout">
           <SideNavBar />
           <div className="layout">
             
