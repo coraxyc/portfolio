@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/coraxyc.github.io/static/css/main.1a1b6480.chunk.css",
+    "main.js": "/coraxyc.github.io/static/js/main.245e286e.chunk.js",
+    "main.js.map": "/coraxyc.github.io/static/js/main.245e286e.chunk.js.map",
+    "runtime~main.js": "/coraxyc.github.io/static/js/runtime~main.de022be6.js",
+    "runtime~main.js.map": "/coraxyc.github.io/static/js/runtime~main.de022be6.js.map",
+    "static/js/2.ee279079.chunk.js": "/coraxyc.github.io/static/js/2.ee279079.chunk.js",
+    "static/js/2.ee279079.chunk.js.map": "/coraxyc.github.io/static/js/2.ee279079.chunk.js.map",
+    "index.html": "/coraxyc.github.io/index.html",
+    "precache-manifest.2d210bc8ec916d6f60d0a7fa0d5bfacd.js": "/coraxyc.github.io/precache-manifest.2d210bc8ec916d6f60d0a7fa0d5bfacd.js",
+    "service-worker.js": "/coraxyc.github.io/service-worker.js",
+    "static/css/main.1a1b6480.chunk.css.map": "/coraxyc.github.io/static/css/main.1a1b6480.chunk.css.map",
+    "static/media/App.css": "/coraxyc.github.io/static/media/wave-top.c5a0eb7d.svg",
+    "static/media/arrow.svg": "/coraxyc.github.io/static/media/arrow.b2ae64df.svg",
+    "static/media/github-icon.svg": "/coraxyc.github.io/static/media/github-icon.d2053907.svg",
+    "static/media/instagram-icon.svg": "/coraxyc.github.io/static/media/instagram-icon.2714a527.svg",
+    "static/media/linkedin-icon.svg": "/coraxyc.github.io/static/media/linkedin-icon.d1e605cc.svg",
+    "static/media/logo.svg": "/coraxyc.github.io/static/media/logo.10e183f3.svg",
+    "static/media/project1_cardconnect.png": "/coraxyc.github.io/static/media/project1_cardconnect.f5de65da.png",
+    "static/media/project2_avant-garde.png": "/coraxyc.github.io/static/media/project2_avant-garde.b3ec17d1.png",
+    "static/media/resume_coraxyc_2020.pdf": "/coraxyc.github.io/static/media/resume_coraxyc_2020.0822a809.pdf",
+    "static/media/right-arrow.svg": "/coraxyc.github.io/static/media/right-arrow.32ff8349.svg",
+    "static/media/twitter-icon.svg": "/coraxyc.github.io/static/media/twitter-icon.18b8573e.svg"
+  }
+}
