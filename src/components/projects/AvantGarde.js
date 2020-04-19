@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const AvantGarde = () => (
   <div>work in progress for avant garde project</div>

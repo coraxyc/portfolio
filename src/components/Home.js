@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import HeaderSection from './HeaderSection.js';
 import ProjectSection from './ProjectSection.js';
 import AboutSection from './AboutSection.js';
@@ -8,7 +8,7 @@ import SideNavBar from './SideNavbar.js';
 
 function Home() {
     return (
-        <div className="mobile-hidden big-layout">
+        <div onContextMenu={(e)=> e.preventDefault()} className="mobile-hidden big-layout">
           <SideNavBar />
           <div className="layout">
             

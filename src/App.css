@@ -10,9 +10,12 @@ body, html {
 a {
   color:inherit;
   text-decoration: none;
-  margin-bottom: 5px;
 }
 
+svg {
+  width: 100%;
+  height: auto;
+}
 div, img  {
   margin: 0;
   padding: 0;
@@ -151,6 +154,7 @@ p {
   background-size: 95%, 100%;
   min-height: 100vh;
   top: 0;
+  margin-top: -1px;
 }
 
 .About-container {
@@ -372,6 +376,7 @@ p {
   grid-area: navigation / navigation / navigation / navigation;
   overflow: hidden auto;
   background: #333333;
+  color: white;
 }
 
 .layout {
@@ -403,6 +408,11 @@ p {
 
 .logo-icon {
   padding-top: 40px;
+}
+
+#logo{
+  width: 80%;
+  margin-left: 10%;
 }
 
 .bottom-icons {
