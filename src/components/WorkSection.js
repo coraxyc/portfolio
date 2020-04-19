@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import aboutWave from './images/about-wave.svg'
-import CardConnectDisplay from './images/project1_cardconnect.png'
-import AvantGardeDisplay from './images/project2_avant-garde.png'
+import aboutWave from '../images/about-wave.svg'
+import CardConnectDisplay from '../images/project1_cardconnect.png'
+import AvantGardeDisplay from '../images/project2_avant-garde.png'
 
 class WorkSection extends Component {
     render() {

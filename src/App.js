@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
-import FullScreen from './FullScreen.js';
-import HiddenMobile from './HiddenMobile.js';
+ import Home from './FullScreen.js';
+//import Home from './Home.js';
+import HiddenMobile from './components/HiddenMobile.js';
 
 function App() {
   return (
     <div>
-      <FullScreen />
+      <Home />
       <HiddenMobile />
     </div>
   );

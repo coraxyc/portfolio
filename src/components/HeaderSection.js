@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import arrow from './images/arrow.svg'
+import arrow from '../images/arrow.svg'
 
 class HeaderSection extends Component {
     render() {

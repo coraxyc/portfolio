@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import footerImages from './images/footer-images.svg';
-import rightArrow from './images/right-arrow.svg'
+import footerImages from '../images/footer-images.svg';
+import rightArrow from '../images/right-arrow.svg'
 
 class CoffeeSection extends Component {
     render() {

@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-import instagramIcon from './images/instagram-icon.svg';
-import githubIcon from './images/github-icon.svg';
-import linkedinIcon from './images/linkedin-icon.svg';
-import logo from './images/coraxyc-logo.svg';
-import twitterIcon from './images/twitter-icon.svg';
-import resume from './images/resume_coraxyc_2020.pdf';
+import instagramIcon from '../images/instagram-icon.svg';
+import githubIcon from '../images/github-icon.svg';
+import linkedinIcon from '../images/linkedin-icon.svg';
+import logo from '../images/coraxyc-logo.svg';
+import twitterIcon from '../images/twitter-icon.svg';
+import resume from '../images/resume_coraxyc_2020.pdf';
 
 
 class SideNavbar extends Component {

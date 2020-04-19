@@ -1,12 +1,12 @@
-import React from 'react';
-import HeaderSection from './HeaderSection.js';
-import WorkSection from './WorkSection.js';
-import AboutSection from './AboutSection.js';
-import CoffeeSection from './CoffeeSection.js';
-import FooterSection from './FooterSection.js';
-import SideNavBar from './SideNavbar.js';
+import React, { Component } from 'react'
+import HeaderSection from './components/HeaderSection.js';
+import WorkSection from './components/WorkSection.js';
+import AboutSection from './components/AboutSection.js';
+import CoffeeSection from './components/CoffeeSection.js';
+import FooterSection from './components/FooterSection.js';
+import SideNavBar from './components/SideNavbar.js';
 
-function FullScreen() {
+function Home() {
     return (
         <div className="mobile-hidden big-layout">
           <SideNavBar />
@@ -26,4 +26,4 @@ function FullScreen() {
   );
 }
 
-export default FullScreen;
+export default Home;
