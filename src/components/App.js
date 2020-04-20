@@ -1,12 +1,12 @@
 import React from 'react';
 import '../App.css';
-import Main from './Main';
+import Home from './Home';
 import HiddenMobile from './HiddenMobile';
 
 function App() {
   return (
     <div>
-      <Main />
+      <Home />
       <HiddenMobile />
     </div>
   );

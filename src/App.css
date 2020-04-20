@@ -336,7 +336,7 @@ p {
   display: inline-flex;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1080px) {
   body {
     display: -webkit-box;
     display: -webkit-flex;
@@ -384,7 +384,7 @@ p {
   
   height: 100%;
     max-height: 100vh;
-    grid-area: main / main / main / main;
+    grid-area: ;
     overflow: hidden auto;
 }
 

@@ -1,15 +1,23 @@
 import React from 'react';
 import { render } from 'react-dom'
 
-import { BrowserRouter } from 'react-router-dom'
+import { Router, HashRouter, Route, Switch } from 'react-router-dom'
 import './index.css';
 import App from './components/App';
+import Home from './components/Home';
+import CardConnect from './components/projects/CardConnect';
+import AvantGarde from './components/projects/AvantGarde';
 import * as serviceWorker from './serviceWorker';
 
 render((
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
+    <div>
+      <Route exact path='/' component={Home}/>
+      <Route path='/projects/cardconnect' component={CardConnect}/>
+      <Route path='/projects/avantgarde' component={AvantGarde}/>
+    </div>
+    
+  </HashRouter>
   ), document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

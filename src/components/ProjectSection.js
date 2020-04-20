@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import CardConnectDisplay from '../images/project1_cardconnect.png'
 import AvantGardeDisplay from '../images/project2_avant-garde.png'
 
@@ -10,9 +11,9 @@ class ProjectSection extends Component {
                     <div className="horizontal">
                     <div className="Work-info">
                         <div className="Work-info-container">
-                            <a href="./projects/cardconnect">
+                            <Link to="./projects/cardconnect">
                                 <img className="Work-info-image" src={CardConnectDisplay}/>
-                            </a>
+                            </Link>
                             <div className="Work-info-text">
                                 <p className="project-title">
                                     CardConnect
@@ -26,9 +27,9 @@ class ProjectSection extends Component {
                             </div>
                         </div>
                         <div className="Work-info-container">
-                            <a href="./projects/avantgarde">
+                            <Link to="./projects/avantgarde">
                                 <img className="Work-info-image" src={AvantGardeDisplay}/>
-                            </a>
+                            </Link>
                             <div className="Work-info-text">
                                 <p className="project-title">
                                     Avant Garde Poster Design
