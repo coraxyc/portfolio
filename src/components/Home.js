@@ -5,10 +5,11 @@ import AboutSection from './AboutSection.js';
 import CoffeeSection from './CoffeeSection.js';
 import FooterSection from './FooterSection.js';
 import SideNavBar from './SideNavbar.js';
+import HiddenMobile from './HiddenMobile';
 
-function Home() {
-    return (
-        <div onContextMenu={(e)=> e.preventDefault()} className="mobile-hidden big-layout">
+const Home = () => (
+    <>
+        <div className="mobile-hidden big-layout">
           <SideNavBar />
           <div className="layout">
             
@@ -18,12 +19,9 @@ function Home() {
             <CoffeeSection />
             <FooterSection />
           </div>
-            
-        {/*
-          <SideNavbar />
-        */}
-    </div>
-  );
-}
+        </div>
+        <HiddenMobile />
+    </>
+);
 
 export default Home;

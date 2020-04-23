@@ -1,22 +1,18 @@
 import React from 'react';
 import { render } from 'react-dom'
 
-import { Router, HashRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
+import ReactGA from 'react-ga'
+
 import './index.css';
 import App from './components/App';
-import Home from './components/Home';
-import CardConnect from './components/projects/CardConnect';
-import AvantGarde from './components/projects/AvantGarde';
 import * as serviceWorker from './serviceWorker';
 
+ReactGA.initialize('UA-123523596-1');
+
 render((
-  <HashRouter basename={process.env.PUBLIC_URL}>
-    <div>
-      <Route exact path='/' component={Home}/>
-      <Route path='/projects/cardconnect' component={CardConnect}/>
-      <Route path='/projects/avantgarde' component={AvantGarde}/>
-    </div>
-    
+  <HashRouter>
+    <App />
   </HashRouter>
   ), document.getElementById('root'));
 

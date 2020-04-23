@@ -208,10 +208,10 @@ p {
 
 .Coffee-container {
   background: #6DB3F2;
-  background-image: url(images/sky-components.svg), url(images/footer-images.svg);
   background-image: url(images/sky-components.svg), url(images/footer-images.svg), linear-gradient(180deg, #2F80ED 0%, #56CCF2 100%);
   background-position: center top, center bottom;
   background-repeat: no-repeat;
+  background-size: auto, contain;
   padding-top: 10%;
   
 }
