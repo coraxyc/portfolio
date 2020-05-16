@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "68d2a36a3597294c88a9cd95e1bc2a05",
+    "revision": "d3566ec7947b615a511621659c959042",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "f87880828d61e17ea814",
-    "url": "/portfolio/static/css/main.5f97107f.chunk.css"
+    "revision": "2f01b3d033ef2e57af6c",
+    "url": "/portfolio/static/css/main.bf58b569.chunk.css"
   },
   {
-    "revision": "4cdc0fea2c3b75342147",
-    "url": "/portfolio/static/js/2.bdab14ac.chunk.js"
+    "revision": "503cdd3e4db4853b7046",
+    "url": "/portfolio/static/js/2.02d3ed9a.chunk.js"
   },
   {
-    "revision": "f87880828d61e17ea814",
-    "url": "/portfolio/static/js/main.b7327dd5.chunk.js"
+    "revision": "2f01b3d033ef2e57af6c",
+    "url": "/portfolio/static/js/main.8afc322d.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -22,6 +22,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c0dbf18087667c5fa3b5d0242635071a",
     "url": "/portfolio/static/media/about-wave.c0dbf180.svg"
+  },
+  {
+    "revision": "46285a1f452c775aef3c576f64388d19",
+    "url": "/portfolio/static/media/ag-banner.46285a1f.png"
+  },
+  {
+    "revision": "3edbb3e130186d72827bbf682768dd92",
+    "url": "/portfolio/static/media/ag-final-product.3edbb3e1.png"
+  },
+  {
+    "revision": "e7e9ec1ea11651d74a2bff11f5dfcd21",
+    "url": "/portfolio/static/media/ag-ideation-sketches.e7e9ec1e.png"
+  },
+  {
+    "revision": "7d4a220dfc0cf83648e2623e7f80064b",
+    "url": "/portfolio/static/media/ag-overview-info-2.7d4a220d.png"
+  },
+  {
+    "revision": "d432dc4f8fa2361bed659124389b284a",
+    "url": "/portfolio/static/media/ag-prototype-a.d432dc4f.png"
+  },
+  {
+    "revision": "500de16bab7a865a0276175cce18854e",
+    "url": "/portfolio/static/media/ag-prototype-b.500de16b.png"
+  },
+  {
+    "revision": "391b6459b35e8dc04dd65d2c43952ef0",
+    "url": "/portfolio/static/media/ag-usertesting-1.391b6459.png"
+  },
+  {
+    "revision": "e28232df6b4330a15670c2533a5dc3bb",
+    "url": "/portfolio/static/media/ag-usertesting-2.e28232df.png"
   },
   {
     "revision": "b2ae64dff7e10f41fcef4c9e67bd2b38",
