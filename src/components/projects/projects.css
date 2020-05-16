@@ -66,3 +66,7 @@ p {
 li {
   font-size: 0.9em;
 }
+
+.lightbox:hover {
+  cursor: zoom-in;
+}

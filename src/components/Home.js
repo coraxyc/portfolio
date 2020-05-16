@@ -8,20 +8,20 @@ import SideNavBar from './SideNavbar.js';
 import HiddenMobile from './HiddenMobile';
 
 const Home = () => (
-    <>
-        <div className="mobile-hidden big-layout">
-          <SideNavBar />
-          <div className="layout">
-            
-            <HeaderSection />
-            <ProjectSection />
-            <AboutSection />
-            <CoffeeSection />
-            <FooterSection />
-          </div>
-        </div>
-        <HiddenMobile />
-    </>
+  <>
+    <div className="mobile-hidden big-layout">
+      <SideNavBar />
+      <div className="layout">
+        
+        <HeaderSection />
+        <ProjectSection />
+        <AboutSection />
+        <CoffeeSection />
+        <FooterSection />
+      </div>
+    </div>
+    <HiddenMobile />
+  </>
 );
 
 export default Home;
