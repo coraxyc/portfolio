@@ -5,16 +5,16 @@ import linkedinIcon from '../images/linkedin-icon.svg';
 import logo from '../images/logo.svg';
 import twitterIcon from '../images/twitter-icon.svg';
 import resume from '../images/resume_coraxyc_2020.pdf';
-
+import { Link } from 'react-router-dom'
 
 class SideNavbar extends Component {
     render() {
         return (
             <div className="side-navbar">
                 <div className="icon logo-icon">
-                    <a href="#home">
+                    <Link to="/">
                         <img src={logo} alt="logo" id="logo"/>
-                    </a>
+                    </Link>
                     coraxyc
                 </div>
                 <div className="bottom-icons">

@@ -1,0 +1,68 @@
+.banner {
+  width: 80%;
+  margin: auto;
+  vertical-align: center;
+}
+
+.gray-banner {
+  width: 100%;
+  background-color: #707070;
+  display: flex;
+}
+
+.project-content {
+  margin: 5% 15%;
+}
+
+.project-image-full {
+  margin: 3% 0;
+  width: 100%;
+}
+
+.project-image-half {
+  margin: 3% 0;
+  width: 50%;
+}
+
+
+.project-title {
+  margin-bottom: 0.2em;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.project-subtitle {
+  font-weight: unset;
+  font-size: 1.4em;
+}
+
+h2 {
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 1%;
+  font-size: 1em;
+}
+
+.row {
+  display: flex;
+}
+
+.column-2 {
+  flex: 50%;
+  padding-right: 5%;
+}
+
+.positive {
+  color: green;
+}
+
+.negative {
+  color: red;
+}
+
+li {
+  font-size: 0.9em;
+}
