@@ -61,8 +61,9 @@ div, img  {
 }
 
 .Work-info-image {
-  box-shadow: 0px 0px 20px rgba(47, 128, 237, 0.5);
+  box-shadow: 0px 0px 20px rgba(53, 53, 53, 0.5);
   margin: 2em 0;
+  width: 100%;
 }
 
 .Work-circle {
@@ -280,8 +281,6 @@ p {
   margin-top: 20px;
   border: 3px solid #FFFFFF;
   background-color: transparent;
-  width: 270px;
-  height: 80px;
   box-sizing: border-box;
   border-radius: 50px;
   cursor: pointer;

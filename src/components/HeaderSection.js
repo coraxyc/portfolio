@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 import arrow from '../images/arrow.svg'
 
 class HeaderSection extends Component {
@@ -14,15 +15,15 @@ class HeaderSection extends Component {
                         <p className="Header-intro-body">
                             I enjoy going to hackathons 👩‍💻, gazing at skyscrapers 🏙,<br/>
                             and experimenting with typography ✍.</p>
-                        <a href="#work">
+                        <Link smooth to="/#work">
                             <button className="Header-intro-button">
                                 Explore my work
                             </button>
-                        </a>
+                        </Link>
                         <br/>
-                        <a href="#work">
+                        <Link smooth to="/#work">
                             <img src={arrow} className="Header-intro-arrow" alt="arrow"/>
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </section>

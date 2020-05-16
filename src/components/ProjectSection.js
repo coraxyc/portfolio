@@ -19,7 +19,7 @@ class ProjectSection extends Component {
                                     CardConnect
                                 </p>
                                 <p className="project-subtitle">
-                                    front-end developer, designer
+                                    front-end web development, UI design, UX research
                                 </p>
                                 <p className="project-body">
                                     Digital contacts list tool that allows you to create templated business cards.
@@ -35,10 +35,10 @@ class ProjectSection extends Component {
                                     Avant Garde Poster Design
                                 </p>
                                 <p className="project-subtitle">
-                                    designer
+                                    information design, visual design, UX research
                                 </p>
                                 <p className="project-body">
-                                A study on grids, typography, and information organization through multiple iterations.
+                                Iterative study on grids, typography, and information organization.
                                 </p>
                             </div>
                         </div>
