@@ -29,21 +29,46 @@ class AvantGarde extends Component {
 
     this.state = {
       photoIndex: 0,
-      isOpen: false
+      isLightboxOpen: false,
+      isVersionAOpen: false,
+      isVersionBOpen: false,
+      isRound2Open: false,
     };
   }
 
+  toggleCollapse(item) {
+    switch(item) {
+      case 'versionA':
+        this.setState({
+          isVersionAOpen: !this.state.isVersionAOpen
+        });
+        break;
+      case 'versionB':
+        this.setState({
+          isVersionBOpen: !this.state.isVersionBOpen
+        });
+        break;
+      case 'round2':
+        this.setState({
+          isRound2Open: !this.state.isRound2Open
+        });
+        break;
+      default:
+        break;
+    }
+  }
+
   render() {
-    const { photoIndex, isOpen } = this.state;
+    const { photoIndex, isLightboxOpen } = this.state;
     return (
       <div className="big-layout">
         <SideNavbar />
-        { isOpen && (
+        { isLightboxOpen && (
           <Lightbox
             mainSrc={images[photoIndex]}
             nextSrc={images[(photoIndex + 1) % images.length]}
             prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-            onCloseRequest={() => this.setState({ isOpen: false })}
+            onCloseRequest={() => this.setState({ isLightboxOpen: false })}
             onMovePrevRequest={() =>
               this.setState({
                 photoIndex: (photoIndex + images.length - 1) % images.length
@@ -76,7 +101,7 @@ class AvantGarde extends Component {
             </p>
             
               
-            <img className="project-image-full lightbox" src={AGOverviewInfo} onClick={() => this.setState({ isOpen: true, photoIndex: 0 })}/>
+            <img className="project-image-full lightbox" src={AGOverviewInfo} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 0 })}/>
 
             <h2>The Problem</h2>
             <p>
@@ -114,7 +139,7 @@ class AvantGarde extends Component {
               to allocate for the title, session information, and other text containers, 
               as well as how much room to leave for images.
             </p>
-            <img className="project-image-full lightbox" src={AGIdeationSketches}  onClick={() => this.setState({ isOpen: true, photoIndex: 1 })}/>
+            <img className="project-image-full lightbox" src={AGIdeationSketches}  onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 1 })}/>
             <h2>Prototyping</h2>
             <p>
               Among my sketches, I decided to move forward with two layouts taking a 
@@ -125,7 +150,7 @@ class AvantGarde extends Component {
             <div className="row">
               <div className="column-2">
                 <h3>Prototype A</h3>
-                <img className="project-image-full lightbox" src={AGPrototypeA} onClick={() => this.setState({ isOpen: true, photoIndex: 2 })}/>
+                <img className="project-image-full lightbox" src={AGPrototypeA} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 2 })}/>
                 <p>
                   In this prototype, I experimented with a top-to-bottom visual flow, 
                   while at the same time adhering to a 10x15 grid with ¼ inch margins 
@@ -137,7 +162,7 @@ class AvantGarde extends Component {
               </div>
               <div className="column-2">
                 <h3>Prototype B</h3>
-                <img className="project-image-full lightbox" src={AGPrototypeB} onClick={() => this.setState({ isOpen: true, photoIndex: 3 })}/>
+                <img className="project-image-full lightbox" src={AGPrototypeB} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 3 })}/>
                 <p>
                   In this next prototype, I experimented with both a top-to-bottom and 
                   left-to-right flow. I separated the presented information into 2 
@@ -160,9 +185,13 @@ class AvantGarde extends Component {
               with a red border and number indicate areas that users didn’t like, as explained 
               below the image.
             </p>
-            <img className="project-image-full lightbox" src={AGUserTesting1} onClick={() => this.setState({ isOpen: true, photoIndex: 4 })}/>
-            <h4>Version A (left)</h4>
-            <div className="row">
+            <img className="project-image-full lightbox" src={AGUserTesting1} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 4 })}/>
+            <button onClick={() => this.toggleCollapse('versionA')}>
+            {(this.state.isVersionAOpen ? 'Hide' : 'View') + " Version A Feedback (left)"}
+            </button>
+            
+            <div className="collapse">
+            <div className={"row" + (this.state.isVersionAOpen ? '' : ' invisible')}>
               <div className="column-2">
                 <p className="positive">Positive feedback (green)</p>
                 <ol>
@@ -180,8 +209,11 @@ class AvantGarde extends Component {
                 </ol>
               </div>
             </div>
-            <h4>Version B (right)</h4>
-            <div className="row">
+            </div>
+            <button onClick={() => this.toggleCollapse('versionB')}>
+              {(this.state.isVersionBOpen ? 'Hide' : 'View') + " Version B Feedback (right)"}
+            </button>
+            <div className={"row" + (this.state.isVersionBOpen ? '' : ' invisible')}>
               <div className="column-2">
                 <p className="positive">Positive feedback (green)</p>
                 <ol>
@@ -210,9 +242,11 @@ class AvantGarde extends Component {
               conducted a second round of user testing for more insights on what users saw 
               in the new version. The new feedback is summarized below.
             </p>
-            <img className="project-image-full lightbox" src={AGUserTesting2} onClick={() => this.setState({ isOpen: true, photoIndex: 5 })}/>
-            <h4>Feedback for Before (left) applied to After (right)</h4>
-            <div className="row">
+            <img className="project-image-full lightbox" src={AGUserTesting2} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 5 })}/>
+            <button onClick={() => this.toggleCollapse('round2')}>
+              {(this.state.isRound2Open ? 'Hide' : 'View') + " Feedback"}
+            </button>
+            <div className={"row" + (this.state.isRound2Open ? '' : ' invisible')}>
               <div className="column-2">
                 <p className="positive">Positive feedback (green)</p>
                 <ol>
@@ -239,7 +273,7 @@ class AvantGarde extends Component {
             <p>
               Overall from this project, I learned that contrast and consistency of alignment are essential to establishing a clear hierarchical flow for information and visual design. This design project provided a challenge where I had to juggle user needs, such as the readability of all the provided information. I also learned that despite having to sacrifice the prominence of certain elements (e.g. session information) through reducing font sizes and less favorable locations, it was still important to do so to highlight and draw attention to more important elements (e.g. title) to reduce cognitive load and thus time on the user’s behalf in making a more readable and usable product.
             </p>
-            <img className="project-image-half lightbox" src={AGFinalProduct} onClick={() => this.setState({ isOpen: true, photoIndex: 6 })}/>
+            <img className="project-image-half lightbox" src={AGFinalProduct} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 6 })}/>
           </div>
         </div>
       </div>

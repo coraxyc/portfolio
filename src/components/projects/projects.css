@@ -48,6 +48,7 @@ p {
 
 .row {
   display: flex;
+  
 }
 
 .column-2 {
@@ -69,4 +70,37 @@ li {
 
 .lightbox:hover {
   cursor: zoom-in;
+}
+
+.invisible {
+  display: none;
+}
+
+button {
+  display: block;
+  margin: 1em 0;
+  padding: 1em 2em;
+  background-color: transparent;
+  color: black;
+  border: 0.05em solid;
+  border-radius: 50px;
+  font-size: 1em;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+button:after {
+  background-color: lightgreen;
+}
+
+.collapse {
+  -moz-transition: height 2s;
+  -ms-transition: height 2s;
+  -o-transition: height 2s;
+  -webkit-transition: height 2s;
+  transition: height 2s;
+  overflow: hidden;
 }
