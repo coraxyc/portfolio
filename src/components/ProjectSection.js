@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import CardConnectDisplay from '../images/project1_cardconnect.png'
+import CardConnectDisplay from '../images/cc-banner.png'
 import AvantGardeDisplay from '../images/project2_avant-garde.png'
 
 class ProjectSection extends Component {
@@ -19,7 +19,7 @@ class ProjectSection extends Component {
                                     CardConnect
                                 </p>
                                 <p className="project-subtitle">
-                                    front-end web development, UI design, UX research
+                                    Front-end web development, UI design, UX research
                                 </p>
                                 <p className="project-body">
                                     Digital contacts list tool that allows you to create templated business cards.
@@ -35,7 +35,7 @@ class ProjectSection extends Component {
                                     Avant Garde Poster Design
                                 </p>
                                 <p className="project-subtitle">
-                                    information design, visual design, UX research
+                                    Information design, Visual design, UX research
                                 </p>
                                 <p className="project-body">
                                 Iterative study on grids, typography, and information organization.

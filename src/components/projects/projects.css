@@ -9,7 +9,11 @@
   background-color: #707070;
   display: flex;
 }
-
+.blue-banner {
+  width: 100%;
+  background-color: #456990;
+  display: flex;
+}
 .project-content {
   margin: 5% 15%;
 }
@@ -24,6 +28,12 @@
   width: 50%;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 .project-title {
   margin-bottom: 0.2em;
@@ -36,11 +46,22 @@
   font-size: 1.4em;
 }
 
+.no-bottom-margin {
+  margin-bottom: 0em;
+}
+
 h2 {
   margin-top: 5%;
   margin-bottom: 0;
 }
 
+iframe {
+  margin: 5%;
+}
+
+h3 {
+  margin-top: 5%;
+}
 p {
   margin-top: 1%;
   font-size: 1em;

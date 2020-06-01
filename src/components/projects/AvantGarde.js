@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Lightbox from "react-image-lightbox"
+
 import SideNavbar from '../SideNavbar'
 import AGBanner from '../../images/ag-banner.png'
 import AGOverviewInfo from '../../images/ag-overview-info-2.png'
@@ -8,9 +10,8 @@ import AGPrototypeB from '../../images/ag-prototype-b.png'
 import AGUserTesting1 from '../../images/ag-usertesting-1.png'
 import AGUserTesting2 from '../../images/ag-usertesting-2.png'
 import AGFinalProduct from '../../images/ag-final-product.png'
-import Lightbox from "react-image-lightbox";
-import "react-image-lightbox/style.css";
 
+import "react-image-lightbox/style.css"
 import './projects.css'
 
 const images = [
@@ -269,11 +270,11 @@ class AvantGarde extends Component {
             <p>
               After applying the second round of feedback I received from user testing, I created the final version to the right on the image above. I made changes such as moving the event date underneath the session number, and removing redundant information like the session titles  (e.g. “Session IV” is unnecessary if there is already a “4” next to the text container indicating the session number). 
             </p>
-            <h2>Reflection</h2>
+            <h2 id="reflection">Reflection</h2>
             <p>
               Overall from this project, I learned that contrast and consistency of alignment are essential to establishing a clear hierarchical flow for information and visual design. This design project provided a challenge where I had to juggle user needs, such as the readability of all the provided information. I also learned that despite having to sacrifice the prominence of certain elements (e.g. session information) through reducing font sizes and less favorable locations, it was still important to do so to highlight and draw attention to more important elements (e.g. title) to reduce cognitive load and thus time on the user’s behalf in making a more readable and usable product.
             </p>
-            <img className="project-image-half lightbox" src={AGFinalProduct} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 6 })}/>
+            <img className="project-image-half lightbox center" src={AGFinalProduct} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 6 })}/>
           </div>
         </div>
       </div>
