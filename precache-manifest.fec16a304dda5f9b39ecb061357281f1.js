@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc856f4fb7e693603c6dde04e5f38d7b",
+    "revision": "4b45803c2a93dfa546eb403be3c432b6",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2f538b7619c9897ce70f",
+    "revision": "342635748f1f8ef1d65f",
     "url": "/portfolio/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "83136ba9429ecdaf67a2",
-    "url": "/portfolio/static/css/main.2f5bc5e0.chunk.css"
+    "revision": "d163f91ffb0aab593adb",
+    "url": "/portfolio/static/css/main.8f977ec8.chunk.css"
   },
   {
-    "revision": "2f538b7619c9897ce70f",
-    "url": "/portfolio/static/js/2.9b3eb014.chunk.js"
+    "revision": "342635748f1f8ef1d65f",
+    "url": "/portfolio/static/js/2.662379dc.chunk.js"
   },
   {
-    "revision": "83136ba9429ecdaf67a2",
-    "url": "/portfolio/static/js/main.49885f43.chunk.js"
+    "revision": "d163f91ffb0aab593adb",
+    "url": "/portfolio/static/js/main.e1a121b8.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -64,6 +64,54 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/arrow.b2ae64df.svg"
   },
   {
+    "revision": "5a2151d5b66aa2d9da229b2fdd010287",
+    "url": "/portfolio/static/media/cc-banner.5a2151d5.png"
+  },
+  {
+    "revision": "2a17a2f92b2d9c5422767c68e5f217c7",
+    "url": "/portfolio/static/media/cc-final-phone.2a17a2f9.jpg"
+  },
+  {
+    "revision": "25c1bd8bf5c0d4d1148fded902a927bb",
+    "url": "/portfolio/static/media/cc-final-poster.25c1bd8b.jpg"
+  },
+  {
+    "revision": "412324d49b9a95c415f6f3ee6dd12077",
+    "url": "/portfolio/static/media/cc-frame-set-a.412324d4.png"
+  },
+  {
+    "revision": "50e54acfbfc33e7094e7a2259d5c4705",
+    "url": "/portfolio/static/media/cc-frame-set-b.50e54acf.png"
+  },
+  {
+    "revision": "925d4398fc75ee2f98fbfda045487a03",
+    "url": "/portfolio/static/media/cc-frame-set-c.925d4398.png"
+  },
+  {
+    "revision": "45981594d2e00c5aa9527affe342434a",
+    "url": "/portfolio/static/media/cc-google-analytics.45981594.png"
+  },
+  {
+    "revision": "d407e9e133f366c7cf311b4e688e6364",
+    "url": "/portfolio/static/media/cc-storyboard-1.d407e9e1.png"
+  },
+  {
+    "revision": "92f32ede683081606e0dfad1d5190183",
+    "url": "/portfolio/static/media/cc-storyboard-2.92f32ede.png"
+  },
+  {
+    "revision": "0f3e57d89cceeccc43c32d2d9ac8105c",
+    "url": "/portfolio/static/media/cc-template-styles.0f3e57d8.gif"
+  },
+  {
+    "revision": "199e90e22927ca7053d41f3031f5053a",
+    "url": "/portfolio/static/media/cc-ucsd-career-fair.199e90e2.jpg"
+  },
+  {
+    "revision": "b89554bcee7fd19ae51538d37b41ea73",
+    "url": "/portfolio/static/media/cc-user-testing-flow.b89554bc.png"
+  },
+  {
     "revision": "8b6f95e721cc888fa232ea5e63455195",
     "url": "/portfolio/static/media/footer-images.8b6f95e7.svg"
   },
@@ -88,16 +136,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/logo.10e183f3.svg"
   },
   {
-    "revision": "f5de65da639c103bce1affaa5029306d",
-    "url": "/portfolio/static/media/project1_cardconnect.f5de65da.png"
-  },
-  {
     "revision": "2aff21a8dc8f774cb6851fb0b4a3b8eb",
     "url": "/portfolio/static/media/project2_avant-garde.2aff21a8.png"
   },
   {
-    "revision": "0822a80909caccc07cc07105c58ee1aa",
-    "url": "/portfolio/static/media/resume_coraxyc_2020.0822a809.pdf"
+    "revision": "82601acf4f01dfa5fe735085c48af3b4",
+    "url": "/portfolio/static/media/resume_coraxyc_2020.82601acf.pdf"
   },
   {
     "revision": "32ff83491ce796377411dd6d286f2a10",
