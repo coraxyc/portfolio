@@ -101,19 +101,23 @@ class CardConnect extends Component {
               <strong> business cards would eventually get lost, crumpled, or destroyed with laundry </strong>
               after students shoved them into pockets. Even if more students were to ask 
               for contact information, the only viable way would be to ask for the recruiter’s 
-              email. Students had concerns <strong> about not remembering </strong> the recruiters’ names with 
+              email,<strong> while feeling pressured to hurry with the growing line behind them.</strong> 
+              Students had concerns about not remembering the recruiters’ names with 
               only emails written down, and were also afraid of asking recruiters for their 
               names again lest recruiters thought they were rude to not pay attention to 
               introductions at the beginning of their conversations.
+              <br/><br/>
             </p>
             <img className="project-image-half center lightbox" src={CCCareerFair} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 0 })}/>
             <p className="center"><i>Image of UCSD Career Fair courtesy of <a href="https://images.app.goo.gl/kWkXDKQ8GL1sCS4Q7" target="_blank"> Glassdoor</a></i></p>
             
             <h2>Problem Statement</h2>
             <p>
-              Student job-seekers need a quick way to record recruiter contact information 
+              As a result of our needfinding process, we identified our target problem:
+              <br/><br/>
+              <strong><i>Student job-seekers need a quick way to record recruiter contact information 
               at conferences and career fairs so that they can later contact recruiters to 
-              obtain more transparent updates on their job application process.
+              obtain more transparent updates on their job application process.</i></strong>
             </p>
 
             <h2>Storyboarding</h2>
@@ -215,7 +219,7 @@ class CardConnect extends Component {
             
             <h2>Final Design</h2>
             <p>We applied our findings from conducting user testing and our Google Analytics experiment to create the final version below.</p>
-            <iframe className="center" width="560" height="315" src="https://www.youtube.com/embed/DdXD9YMgvo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="center" width="560" height="315" src="https://www.youtube.com/embed/DdXD9YMgvo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
             <h2>Reflection</h2>
             <p>

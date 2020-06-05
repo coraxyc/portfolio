@@ -106,31 +106,31 @@ class AvantGarde extends Component {
 
             <h2>The Problem</h2>
             <p>
-              Users need to be able to quickly identify necessary information on a 
+              Within this design task for my class on Prototyping (DSGN 100), the problem posed was that <i><strong>users need to be able to quickly identify necessary information on a 
               poster so that they can discern whether they are interested in the poster 
-              splash page content. 
+              splash page content. </strong></i>
             </p>
             <h2>User research</h2>
             <p>
               To understand my target audience, I gathered insights from interviewing 
-              users. In the interview process, I had users rank the sections of 
-              information in order of what they believed were most to least 
-              important, namely text blocks corresponding to the subjects: Event 
+              users. In the interview process, I had users <strong> rank the sections of 
+              information</strong> in order of what they believed were <strong> most to least 
+              important,</strong> namely text blocks corresponding to the subjects: Event 
               title, Venue, Dates, Location, Notable speakers, and Admission, Contact, 
               Organizer, and Event support information.
               <br/><br/>
               I gathered these rankings together to come up with the overall consensus 
               of rankings, ordered by subject from left to right, most important to 
-              least important: 1. Event title, 2. Venue, Dates, Location, 3. Sessions, 
+              least important: <strong> 1. Event title, 2. Venue, Dates, Location, 3. Sessions, 
               4. Admission, Contact, and Organizer information, 5. Notable speakers, 
-              6. Event support information.
+              6. Event support information. </strong>
               <br/><br/>
               Users for the most part agreed that the title was most important, followed 
               by a mixed ranking of Venue, Dates, and Location information, so I used 
               this finding to group the three categories within the same ranking. 
               Likewise was the case for the Admission, Contact, and Organizer information. 
-              I used these rankings to determine what direction the visual flow of text 
-              containers should go, specifically for ordering these information blocks 
+              I used these rankings to <strong>determine what direction the visual flow of text 
+              containers should go, </strong> specifically for ordering these information blocks 
               in different sizes on the poster.
             </p>
             <h2>Ideation</h2>
@@ -143,7 +143,7 @@ class AvantGarde extends Component {
             <img className="project-image-full lightbox" src={AGIdeationSketches}  onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 1 })}/>
             <h2>Prototyping</h2>
             <p>
-              Among my sketches, I decided to move forward with two layouts taking a 
+              Among my sketches, I decided to move forward with <strong> two layouts </strong>taking a 
               combination of elements in my sketches that worked best (e.g. room for 
               prominent title, easy-to-follow placements of consecutive sections) to 
               create low-fidelity prototypes.
@@ -153,25 +153,25 @@ class AvantGarde extends Component {
                 <h3>Prototype A</h3>
                 <img className="project-image-full lightbox" src={AGPrototypeA} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 2 })}/>
                 <p>
-                  In this prototype, I experimented with a top-to-bottom visual flow, 
+                  In this prototype, I experimented with a <strong> top-to-bottom visual flow, </strong>
                   while at the same time adhering to a 10x15 grid with ¼ inch margins 
                   and ¼ inch gutters. I used Figma to create the layouts and grids, so 
-                  the ¼ inch measurement translated to 20 pixels. By vertically stacking 
+                  the ¼ inch measurement translated to 20 pixels. <strong> By vertically stacking 
                   each element, a user could scan pertinent information to gauge their 
-                  interest from top to bottom starting with the title.
+                  interest from top to bottom starting with the title. </strong>
                 </p>
               </div>
               <div className="column-2">
                 <h3>Prototype B</h3>
                 <img className="project-image-full lightbox" src={AGPrototypeB} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 3 })}/>
                 <p>
-                  In this next prototype, I experimented with both a top-to-bottom and 
-                  left-to-right flow. I separated the presented information into 2 
+                  In this next prototype, I experimented with both a <strong> top-to-bottom and 
+                  left-to-right flow. </strong> I separated the presented information into 2 
                   columns--one for non-session information to the left, and one specifically 
-                  for session information on the right. This way, the content could be easily 
+                  for session information on the right. <strong> This way, the content could be easily 
                   scanned for basic information on the event on the left column starting with 
                   the title. If a user were more interested in the content of the talks, they 
-                  could continue to read the content on the right column.
+                  could continue to read the content on the right column. </strong>
                 </p>
               </div>
             </div>
@@ -236,9 +236,9 @@ class AvantGarde extends Component {
             <p>
               With both the positive and negative feedback I received, I set out to apply the 
               results of my first round of user testing to the next stage, while adding in 
-              images. I chose to continue with Version B because users indicated that they 
+              images. I chose to continue with Version B because <strong> users indicated that they 
               preferred the benefit of being easily able to distinguish between the event 
-              information and the session information through the left and right columns. 
+              information and the session information through the left and right columns. </strong>
               After coming up with the result on the left side of the image below, I 
               conducted a second round of user testing for more insights on what users saw 
               in the new version. The new feedback is summarized below.
@@ -272,7 +272,7 @@ class AvantGarde extends Component {
             </p>
             <h2 id="reflection">Reflection</h2>
             <p>
-              Overall from this project, I learned that contrast and consistency of alignment are essential to establishing a clear hierarchical flow for information and visual design. This design project provided a challenge where I had to juggle user needs, such as the readability of all the provided information. I also learned that despite having to sacrifice the prominence of certain elements (e.g. session information) through reducing font sizes and less favorable locations, it was still important to do so to highlight and draw attention to more important elements (e.g. title) to reduce cognitive load and thus time on the user’s behalf in making a more readable and usable product.
+              Overall from this project, I learned that <strong> contrast and consistency of alignment </strong> are essential to establishing a clear hierarchical flow for information and visual design. This design project provided a challenge where I had to juggle user needs, such as the readability of all the provided information. I also learned that despite having to sacrifice the prominence of certain elements (e.g. session information) through reducing font sizes and less favorable locations, it was still important to do so to highlight and draw attention to more important elements (e.g. title) to <strong> reduce cognitive load and thus time on the user’s behalf </strong> in making a more readable and usable product.
             </p>
             <img className="project-image-half lightbox center" src={AGFinalProduct} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 6 })}/>
           </div>
