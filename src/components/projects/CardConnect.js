@@ -11,7 +11,7 @@ import CCStoryboard1 from '../../images/cc-storyboard-1.png'
 import CCStoryboard2 from '../../images/cc-storyboard-2.png'
 import CCCareerFair from '../../images/cc-ucsd-career-fair.jpg'
 import CCUserTestingFlow from '../../images/cc-user-testing-flow.png'
-import CCFinalPoster from '../../images/cc-final-poster.jpg';
+import CCFinalDesign from '../../images/cc-final-design.png';
 import CCFinalPhone from '../../images/cc-final-phone.jpg';
 import CCTemplateStyles from '../../images/cc-template-styles.gif';
 import "react-image-lightbox/style.css";
@@ -26,8 +26,8 @@ const images = [
   CCFrameSetC,
   CCUserTestingFlow,
   CCGoogleAnalytics,
-  CCFinalPhone,
-  CCFinalPoster
+  CCFinalDesign,
+  CCFinalPhone
 ]
 
 class CardConnect extends Component {
@@ -219,7 +219,7 @@ class CardConnect extends Component {
             
             <h2>Final Design</h2>
             <p>We applied our findings from conducting user testing and our Google Analytics experiment to create the final version below.</p>
-            <iframe className="center" width="560" height="315" src="https://www.youtube.com/embed/DdXD9YMgvo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+            <img className="project-image-full center lightbox" src={CCFinalDesign} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 8 })}/>
 
             <h2>Reflection</h2>
             <p>
@@ -238,10 +238,7 @@ class CardConnect extends Component {
             </p>
             <div className="row">
               <div className="column-2">
-                <img className="project-image-full lightbox" src={CCFinalPhone} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 8 })}/>
-              </div>
-              <div className="column-2">
-                <img className="project-image-full lightbox" src={CCFinalPoster} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 9 })}/>
+                <img className="project-image-full center lightbox" src={CCFinalPhone} onClick={() => this.setState({ isLightboxOpen: true, photoIndex: 9 })}/>
               </div>
             </div>
             
