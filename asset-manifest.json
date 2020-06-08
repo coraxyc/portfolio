@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9a0201b8.chunk.css",
-    "main.js": "/portfolio/static/js/main.f128b0b3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f128b0b3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.3e008457.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3e008457.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
     "static/css/2.9522b9fe.chunk.css": "/portfolio/static/css/2.9522b9fe.chunk.css",
-    "static/js/2.662379dc.chunk.js": "/portfolio/static/js/2.662379dc.chunk.js",
-    "static/js/2.662379dc.chunk.js.map": "/portfolio/static/js/2.662379dc.chunk.js.map",
+    "static/js/2.dadb9a85.chunk.js": "/portfolio/static/js/2.dadb9a85.chunk.js",
+    "static/js/2.dadb9a85.chunk.js.map": "/portfolio/static/js/2.dadb9a85.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7109b6db8ddc02d27c22f1cbb62b82c8.js": "/portfolio/precache-manifest.7109b6db8ddc02d27c22f1cbb62b82c8.js",
+    "precache-manifest.bd387bf7e9389b654dfaf98082278aa6.js": "/portfolio/precache-manifest.bd387bf7e9389b654dfaf98082278aa6.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.9522b9fe.chunk.css.map": "/portfolio/static/css/2.9522b9fe.chunk.css.map",
     "static/css/main.9a0201b8.chunk.css.map": "/portfolio/static/css/main.9a0201b8.chunk.css.map",
@@ -40,6 +40,7 @@
     "static/media/linkedin-icon.svg": "/portfolio/static/media/linkedin-icon.d1e605cc.svg",
     "static/media/logo.svg": "/portfolio/static/media/logo.10e183f3.svg",
     "static/media/project2_avant-garde.png": "/portfolio/static/media/project2_avant-garde.2aff21a8.png",
+    "static/media/project3_informed-banner.png": "/portfolio/static/media/project3_informed-banner.c1f71255.png",
     "static/media/resume_coraxyc_2020.pdf": "/portfolio/static/media/resume_coraxyc_2020.82601acf.pdf",
     "static/media/right-arrow.svg": "/portfolio/static/media/right-arrow.32ff8349.svg",
     "static/media/twitter-icon.svg": "/portfolio/static/media/twitter-icon.18b8573e.svg"
