@@ -4,6 +4,7 @@ import '../App.css';
 import Home from './Home';
 import AvantGarde from './projects/AvantGarde';
 import CardConnect from './projects/CardConnect';
+import Informed from './projects/Informed';
 import createHistory from 'history/createBrowserHistory'
 import ReactGA from 'react-ga'
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path='/' component={Home}/>
         <Route path='/projects/cardconnect' component={CardConnect}/>
         <Route path='/projects/avantgarde' component={AvantGarde}/>
+        <Route path='/projects/informed' component={Informed}/>
       </>
     );
 }

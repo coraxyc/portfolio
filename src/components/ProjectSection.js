@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import CardConnectDisplay from '../images/cc-banner.png'
 import AvantGardeDisplay from '../images/project2_avant-garde.png'
+import InformedDisplay from '../images/project3_informed-banner.png'
 
 class ProjectSection extends Component {
     render() {
@@ -19,7 +20,7 @@ class ProjectSection extends Component {
                                     CardConnect
                                 </p>
                                 <p className="project-subtitle">
-                                    Front-end web development, UI design, UX research
+                                    Front-end Web Development, UI Design, UX Research
                                 </p>
                                 <p className="project-body">
                                     Digital contacts list tool that allows you to create templated business cards.
@@ -35,10 +36,26 @@ class ProjectSection extends Component {
                                     Avant Garde Poster Design
                                 </p>
                                 <p className="project-subtitle">
-                                    Information design, Visual design, UX research
+                                    Information Design, Visual Design, UX Research
                                 </p>
                                 <p className="project-body">
                                 Iterative study on grids, typography, and information organization.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="Work-info-container">
+                            <Link to="./projects/informed">
+                                <img className="Work-info-image" src={InformedDisplay}/>
+                            </Link>
+                            <div className="Work-info-text">
+                                <p className="project-title">
+                                    iNFORMed
+                                </p>
+                                <p className="project-subtitle">
+                                    UI/UX Design, Visual Design, User Research
+                                </p>
+                                <p className="project-body">
+                                    Grassroots community platform streamlining access to verified COVID-19 resources.
                                 </p>
                             </div>
                         </div>
