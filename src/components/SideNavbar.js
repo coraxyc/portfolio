@@ -6,7 +6,7 @@ import logo from '../images/logo.svg';
 import twitterIcon from '../images/twitter-icon.svg';
 import resume from '../images/resume_coraxyc_2020.pdf';
 import { Link } from 'react-router-dom'
-
+import './styles/sidenavbar.css';
 class SideNavbar extends Component {
     render() {
         return (
@@ -19,11 +19,11 @@ class SideNavbar extends Component {
                 </div>
                 <div className="bottom-icons">
                     <div className="icon">
-                        <a href={resume} target="_blank" rel="noopener noreferrer">
+                        <a href={resume} className="no-decoration" target="_blank" rel="noopener noreferrer">
                             Resume
                         </a>
   
-                        <a href="#coffee">
+                        <a href="#coffee" className="no-decoration">
                             Contact
                         </a>
                     </div>

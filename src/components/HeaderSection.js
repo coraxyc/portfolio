@@ -15,7 +15,7 @@ class HeaderSection extends Component {
                         <p className="Header-intro-body">
                             I enjoy going to hackathons 👩‍💻, gazing at skyscrapers 🏙,<br/>
                             and experimenting with typography ✍.</p>
-                        <Link smooth to="/#work">
+                        <Link className="no-decoration "smooth to="/#work">
                             <button className="Header-intro-button">
                                 Explore my work
                             </button>

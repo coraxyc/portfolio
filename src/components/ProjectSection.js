@@ -12,6 +12,22 @@ class ProjectSection extends Component {
                     <div className="horizontal">
                     <div className="Work-info">
                         <div className="Work-info-container">
+                            <Link to="./projects/informed">
+                                <img className="Work-info-image" src={InformedDisplay}/>
+                            </Link>
+                            <div className="Work-info-text">
+                                <p className="project-title">
+                                    iNFORMed
+                                </p>
+                                <p className="project-subtitle">
+                                    UI/UX Design, Visual Design, User Research
+                                </p>
+                                <p className="project-body">
+                                    Grassroots community platform streamlining access to verified COVID-19 resources.
+                                </p>
+                            </div>
+                        </div>
+                        <div className="Work-info-container">
                             <Link to="./projects/cardconnect">
                                 <img className="Work-info-image" src={CardConnectDisplay}/>
                             </Link>
@@ -40,22 +56,6 @@ class ProjectSection extends Component {
                                 </p>
                                 <p className="project-body">
                                 Iterative study on grids, typography, and information organization.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="Work-info-container">
-                            <Link to="./projects/informed">
-                                <img className="Work-info-image" src={InformedDisplay}/>
-                            </Link>
-                            <div className="Work-info-text">
-                                <p className="project-title">
-                                    iNFORMed
-                                </p>
-                                <p className="project-subtitle">
-                                    UI/UX Design, Visual Design, User Research
-                                </p>
-                                <p className="project-body">
-                                    Grassroots community platform streamlining access to verified COVID-19 resources.
                                 </p>
                             </div>
                         </div>

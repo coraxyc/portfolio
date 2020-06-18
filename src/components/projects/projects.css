@@ -9,11 +9,19 @@
   background-color: #707070;
   display: flex;
 }
+
 .blue-banner {
   width: 100%;
   background-color: #456990;
   display: flex;
 }
+
+.green-banner {
+  width: 100%;
+  background-color: #D0DC97;
+  display: flex;
+}
+
 .project-content {
   margin: 5% 15%;
 }
@@ -23,9 +31,19 @@
   width: 100%;
 }
 
+.project-image-three-quarters {
+  margin: 3% 0;
+  width: 75%;
+}
+
 .project-image-half {
   margin: 3% 0;
   width: 50%;
+}
+
+.project-image-third {
+  margin: 3% 0;
+  width: 33%;
 }
 
 .center {
@@ -69,7 +87,6 @@ p {
 
 .row {
   display: flex;
-  
 }
 
 .column-2 {
@@ -124,4 +141,18 @@ button:after {
   -webkit-transition: height 2s;
   transition: height 2s;
   overflow: hidden;
+}
+
+.answer {
+  color: gray;
+  font-size: 0.9rem;
+}
+a {
+  color: #2F80ED;
+  text-decoration: underline;
+}
+
+li {
+  font-size: inherit;
+  margin-bottom: 0.3rem;
 }
