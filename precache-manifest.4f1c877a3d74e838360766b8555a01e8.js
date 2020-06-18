@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0629b36196637cd4627aa0988c61f7f2",
+    "revision": "9368a3f64e0c170cd9ef562a7584f905",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "e5852600cf3c802da927",
+    "revision": "da27354ad8189cbd94b9",
     "url": "/portfolio/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "c443089dafe62b03eed1",
-    "url": "/portfolio/static/css/main.9a0201b8.chunk.css"
+    "revision": "8592b8db93b7dd677ff3",
+    "url": "/portfolio/static/css/main.47f58d55.chunk.css"
   },
   {
-    "revision": "e5852600cf3c802da927",
-    "url": "/portfolio/static/js/2.dadb9a85.chunk.js"
+    "revision": "da27354ad8189cbd94b9",
+    "url": "/portfolio/static/js/2.01d42256.chunk.js"
   },
   {
-    "revision": "c443089dafe62b03eed1",
-    "url": "/portfolio/static/js/main.3e008457.chunk.js"
+    "revision": "8592b8db93b7dd677ff3",
+    "url": "/portfolio/static/js/main.ed2ed6e6.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -122,6 +122,66 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dbc08e28eb27c6da5ac85f42bd0acb1e",
     "url": "/portfolio/static/media/header-images.dbc08e28.svg"
+  },
+  {
+    "revision": "cb2701accd9cd13fc5fa7cd8e813bbcb",
+    "url": "/portfolio/static/media/in-final-1.cb2701ac.png"
+  },
+  {
+    "revision": "29c9373571128e687d074fe13b26cf9a",
+    "url": "/portfolio/static/media/in-final-2.29c93735.png"
+  },
+  {
+    "revision": "5a7dff77c74a64791852f1d06cda2232",
+    "url": "/portfolio/static/media/in-final-3.5a7dff77.png"
+  },
+  {
+    "revision": "f04630a8d06dc1c2754cc26918fa0d53",
+    "url": "/portfolio/static/media/in-needfinding-demographics.f04630a8.png"
+  },
+  {
+    "revision": "24724b66b5d73d48fcbf0aa0ebed5065",
+    "url": "/portfolio/static/media/in-persona-1.24724b66.png"
+  },
+  {
+    "revision": "a16e66f22eaf4a6bb4c64f627a3a7c5c",
+    "url": "/portfolio/static/media/in-persona-2.a16e66f2.png"
+  },
+  {
+    "revision": "1cdae0348a13fa217ef5d9af4ef98236",
+    "url": "/portfolio/static/media/in-persona-3.1cdae034.png"
+  },
+  {
+    "revision": "82e92314167c8b5206b9b9d010c6cbec",
+    "url": "/portfolio/static/media/in-prototype-1.82e92314.png"
+  },
+  {
+    "revision": "004f4552c1b9ea7695ad70b59828037e",
+    "url": "/portfolio/static/media/in-prototype-2.004f4552.png"
+  },
+  {
+    "revision": "f15546bd6585b6ced771b3f7e6789a0d",
+    "url": "/portfolio/static/media/in-prototype-3.f15546bd.png"
+  },
+  {
+    "revision": "4f6c183a26138f301a778f206c76e0b3",
+    "url": "/portfolio/static/media/in-storyboard-1.4f6c183a.png"
+  },
+  {
+    "revision": "5b210da52280a7709d0147108f845870",
+    "url": "/portfolio/static/media/in-storyboard-2.5b210da5.png"
+  },
+  {
+    "revision": "4102f736d8f2d19216b1acf886476347",
+    "url": "/portfolio/static/media/in-storyboard-3.4102f736.png"
+  },
+  {
+    "revision": "4759f5f342d37495ebc23f950af0c2e5",
+    "url": "/portfolio/static/media/in-team-picture.4759f5f3.png"
+  },
+  {
+    "revision": "e649b2803e8f02602300407e59de5aea",
+    "url": "/portfolio/static/media/in-wireframes.e649b280.png"
   },
   {
     "revision": "2714a527962be2fcc207b5005c6331f3",
