@@ -187,9 +187,7 @@ p {
 
 .About-body {
   color: white;
-  margin-left: 40%;
-  margin-right: 10%;
-  padding-top: 10%;
+  margin: 0 6em;
   font-size: 25px;
 }
 
@@ -207,7 +205,7 @@ p {
 
 .About-circle-body-divider {
   margin-top: -15px;
-  width: 250px;
+  width: 310px;
   height: 8px;
   background-color: #56CCF2;
   margin-bottom: 30px;
@@ -342,6 +340,11 @@ p {
 
 .horizontal {
   display: inline-flex;
+}
+
+.About-title {
+  color: white;
+  margin-left: 10rem;
 }
 
 @media screen and (max-width: 1220px) {
