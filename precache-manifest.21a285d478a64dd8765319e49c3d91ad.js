@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9368a3f64e0c170cd9ef562a7584f905",
+    "revision": "57828936c74862b0cf307af1a4c2d957",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "da27354ad8189cbd94b9",
+    "revision": "74c99275cff2cb5b7bcc",
     "url": "/portfolio/static/css/2.9522b9fe.chunk.css"
   },
   {
-    "revision": "8592b8db93b7dd677ff3",
-    "url": "/portfolio/static/css/main.47f58d55.chunk.css"
+    "revision": "47f6956f080199991f1f",
+    "url": "/portfolio/static/css/main.91a3cda9.chunk.css"
   },
   {
-    "revision": "da27354ad8189cbd94b9",
-    "url": "/portfolio/static/js/2.01d42256.chunk.js"
+    "revision": "74c99275cff2cb5b7bcc",
+    "url": "/portfolio/static/js/2.8fd58959.chunk.js"
   },
   {
-    "revision": "8592b8db93b7dd677ff3",
-    "url": "/portfolio/static/js/main.ed2ed6e6.chunk.js"
+    "revision": "70e8d84d8e6f71827366e886a7ebf9b2",
+    "url": "/portfolio/static/js/2.8fd58959.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "53ebc025fca807d4dbea",
-    "url": "/portfolio/static/js/runtime~main.f308c8e6.js"
+    "revision": "47f6956f080199991f1f",
+    "url": "/portfolio/static/js/main.fb996f1b.chunk.js"
+  },
+  {
+    "revision": "425557a32812470f2fdc",
+    "url": "/portfolio/static/js/runtime-main.382c46c1.js"
   },
   {
     "revision": "c0dbf18087667c5fa3b5d0242635071a",
@@ -112,12 +116,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/cc-user-testing-flow.b89554bc.png"
   },
   {
+    "revision": "446c50332b3564a11d8ae7007aeaca70",
+    "url": "/portfolio/static/media/espresso_banner.446c5033.png"
+  },
+  {
     "revision": "8b6f95e721cc888fa232ea5e63455195",
     "url": "/portfolio/static/media/footer-images.8b6f95e7.svg"
   },
   {
     "revision": "d2053907f6cfa6f8fc8aca67402e7e07",
     "url": "/portfolio/static/media/github-icon.d2053907.svg"
+  },
+  {
+    "revision": "4adc255752fd1de87e8480661cda8565",
+    "url": "/portfolio/static/media/hackxx_banner.4adc2557.png"
+  },
+  {
+    "revision": "3bb194b345d56321bb845c230741bf08",
+    "url": "/portfolio/static/media/hackxx_info.3bb194b3.png"
   },
   {
     "revision": "dbc08e28eb27c6da5ac85f42bd0acb1e",
@@ -212,8 +228,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/right-arrow.32ff8349.svg"
   },
   {
+    "revision": "9f800666cf63f65c9423cf171308e574",
+    "url": "/portfolio/static/media/sdhacks_banner.9f800666.png"
+  },
+  {
     "revision": "d0ff7ee3e753b76f011b13f2eddf6070",
     "url": "/portfolio/static/media/sky-components.d0ff7ee3.svg"
+  },
+  {
+    "revision": "0f4ac8c940e755daae790fe151f121cc",
+    "url": "/portfolio/static/media/tesc_eotg_flyer.0f4ac8c9.png"
   },
   {
     "revision": "18b8573ed44efd3f236712fa71fabd47",
@@ -222,5 +246,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c5a0eb7d934a120af43b3560f7647b61",
     "url": "/portfolio/static/media/wave-top.c5a0eb7d.svg"
+  },
+  {
+    "revision": "02d1eca27e0f720a108f2f454bd176e0",
+    "url": "/portfolio/static/media/yonder_kickstarter_tiers.02d1eca2.png"
   }
 ]);
